@@ -9,7 +9,7 @@ public class DebugThirteen3
    {
       Path file =
          Paths.get("C:\\Java\\Chapter.13\\DebugData4.txt");
-      Scanner kb = new Scanner();
+      Scanner kb = new Scanner(System.in);
       String[] array = new String[2];
       String string = "";
       String delimiter = ",";
